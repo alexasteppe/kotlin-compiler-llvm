@@ -1,0 +1,21 @@
+# Ignore CI build directory
+build/
+xcuserdata
+cmake-build-debug/
+.idea/
+# python
+*.pyc
+
+# macOS files
+.DS_Store
+googletest/.DS_Store
+googletest/xcode/.DS_Store
+
+# Ignore cmake generated directories and files.
+CMakeFiles
+CTestTestfile.cmake
+Makefile
+/bin
+/lib
+/Win32
+/CMakeCache.txt
